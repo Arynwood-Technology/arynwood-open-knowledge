@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/SkyeVault/LearnOS",
+  "revision": "33d5c36404c6390d62d0b626e9ce05bf88f1038b",
+  "license": "MIT",
+  "files": [
+    {
+      "source": "apps/homeschool-console/src/content/curriculum/k-12/grade-01/reading/grade-01-reading-semester-01.module.json",
+      "blob": "f78880fdb8cc1f35470951da1ed0b5155f8e6df0",
+      "usage": "Unmodified public curriculum manifest"
+    },
+    {
+      "source": "apps/homeschool-console/src/features/module-learning.ts",
+      "blob": "1b0b80d5abcde29742180f794fc16af5be8ec7c1",
+      "usage": "Adapted types and parser design in src/education/curriculum.ts"
+    }
+  ]
+}
