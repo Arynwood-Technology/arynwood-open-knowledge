@@ -1,0 +1,35 @@
+[
+  {
+    "id": "synthetic-fixture-01",
+    "relevantSourceIds": [
+      "fixture:source-a",
+      "fixture:source-b"
+    ],
+    "retrievedSourceIds": [
+      "fixture:source-x",
+      "fixture:source-a"
+    ],
+    "citations": [
+      {
+        "sourceId": "fixture:source-a",
+        "bibliographicMatch": true
+      },
+      {
+        "sourceId": "fixture:source-x",
+        "bibliographicMatch": false
+      }
+    ],
+    "claims": [
+      {
+        "supported": true,
+        "faithful": true,
+        "attributed": true
+      },
+      {
+        "supported": false,
+        "faithful": false,
+        "attributed": false
+      }
+    ]
+  }
+]

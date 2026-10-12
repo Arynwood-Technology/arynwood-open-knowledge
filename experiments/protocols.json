@@ -1,0 +1,60 @@
+{
+  "status": "planned-protocols",
+  "studies": [
+    {
+      "id": "citation-reliability",
+      "question": "How often do local models cite a real, correctly attributed source?",
+      "measures": [
+        "citationAccuracy"
+      ],
+      "comparison": "same questions with and without retrieval"
+    },
+    {
+      "id": "scholarly-retrieval",
+      "question": "Which retrieval configurations return relevant educational sources?",
+      "measures": [
+        "precision",
+        "recall",
+        "reciprocalRank"
+      ],
+      "comparison": "keyword vs local embedding ranking"
+    },
+    {
+      "id": "grounded-summaries",
+      "question": "Which source claims survive plain-language summarization?",
+      "measures": [
+        "unsupportedClaimRate",
+        "summaryFaithfulness",
+        "attributionCoverage"
+      ],
+      "comparison": "blinded dual human ratings"
+    },
+    {
+      "id": "privacy",
+      "question": "Can the workflow operate without external learner-data transmission?",
+      "measures": [
+        "network-egress audit",
+        "retention/deletion checks"
+      ],
+      "comparison": "local-only mode vs explicit external discovery"
+    },
+    {
+      "id": "accessibility",
+      "question": "Can keyboard and assistive-technology users complete research tasks?",
+      "measures": [
+        "task completion",
+        "barrier counts"
+      ],
+      "comparison": "participant-led testing with ethics/consent review"
+    },
+    {
+      "id": "open-retrieval",
+      "question": "Can independent engineers reproduce retrieval outcomes?",
+      "measures": [
+        "artifact completeness",
+        "repeat-run agreement"
+      ],
+      "comparison": "pinned local corpus and runtime"
+    }
+  ]
+}

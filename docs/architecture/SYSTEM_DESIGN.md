@@ -25,4 +25,3 @@ Desktop uses the same frontend with minimal Tauri privileges. Optional Node HTTP
 
 ## Tradeoffs
 localStorage offers a small, dependency-light initial store but lacks encryption, transactional multi-tab writes and reliable large archives. Export JSON backups; validated restore and delete. No collaboration or cloud synchronization. Search requires network access and sends query text to the selected provider; saved records and learning preview work offline after assets are available. Optional offline caching/service worker is planned.
-

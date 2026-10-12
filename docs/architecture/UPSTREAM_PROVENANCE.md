@@ -9,4 +9,3 @@ This repository starts with a clean Git history and is not a GitHub fork. Origin
 Reused: curriculum types and parser design from features/module-learning.ts, adapted with deeper validation; Grade 1 reading semester 1 manifest, retained without edits. Research UI and adapters are new. Local records, credentials, lock files from office editors, build outputs, node_modules, .git and unrelated assets are excluded. Public curriculum text remains educator-review-required and is not automatically evidence-based guidance. Third-party linked resources retain their own licenses; the upstream MIT license does not grant rights to those resources.
 
 Future upstream imports must pin a revision, review license and security, record source hashes, add regression tests, and happen on a feature branch. Never modify the upstream remote or rewrite this project's published history.
-

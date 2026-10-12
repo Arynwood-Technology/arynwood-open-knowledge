@@ -1,0 +1,480 @@
+{
+  "id": "grade-01-reading-semester-01",
+  "name": "Grade 1 Reading — Semester 1",
+  "description": "An 18-week Grade 1 pathway for phonics, high-frequency words, fluency, and story elements. Learning builds independence through investigation, guided practice, application, and reflection.",
+  "version": "1.0.0",
+  "subjectNames": [
+    "Reading"
+  ],
+  "learningGoals": [
+    "Develop first-grade knowledge and skills in phonics, high-frequency words, fluency, and story elements.",
+    "Use speaking, drawing, writing, numbers, models, or movement to explain thinking.",
+    "Work independently when ready and ask for help, feedback, or clarification when needed."
+  ],
+  "lessons": [
+    {
+      "title": "Explore phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can observe, discuss, and record phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Practice phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can observe, discuss, and record phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Show what I know about phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can observe, discuss, and record phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Explore phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can practice with support and explain phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Practice phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can practice with support and explain phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Show what I know about phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can practice with support and explain phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Explore phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can create, solve, move, or demonstrate phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Practice phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can create, solve, move, or demonstrate phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Show what I know about phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can create, solve, move, or demonstrate phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Explore phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can present, reflect, and set a next step phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Practice phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can present, reflect, and set a next step phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    },
+    {
+      "title": "Show what I know about phonics, high-frequency words, fluency, and story elements",
+      "objective": "I can present, reflect, and set a next step phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+      "minutes": 30
+    }
+  ],
+  "resources": [
+    {
+      "title": "Common Core State Standards for ELA",
+      "url": "https://corestandards.org/ela-literacy/",
+      "description": "Planning reference for this Grade 1 Reading pathway."
+    }
+  ],
+  "curriculum": {
+    "gradeId": "grade-01",
+    "subjectId": "reading",
+    "semester": 1,
+    "pacing": {
+      "intendedWeeks": 18,
+      "flexible": true
+    },
+    "units": [
+      {
+        "id": "u01",
+        "title": "Investigate: phonics, high-frequency words, fluency, and story elements",
+        "essentialQuestion": "What evidence can we gather about phonics, high-frequency words, fluency, and story elements?",
+        "outcomes": [
+          "I can observe, discuss, and record phonics, high-frequency words, fluency, and story elements.",
+          "I can use accurate words, pictures, numbers, models, writing, or movement to communicate my thinking."
+        ],
+        "standardIds": [
+          "CCSS.ELA-LITERACY.RL.K.1"
+        ],
+        "lessons": [
+          {
+            "id": "u01-l01",
+            "title": "Explore phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can observe, discuss, and record phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [],
+            "activities": [
+              {
+                "id": "u01-l01-a01",
+                "title": "Notice and investigate",
+                "kind": "learn",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to observe, discuss, and record phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "written-response",
+                  "audio",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          },
+          {
+            "id": "u01-l02",
+            "title": "Practice phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can observe, discuss, and record phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [],
+            "activities": [
+              {
+                "id": "u01-l02-a01",
+                "title": "Guided skill practice",
+                "kind": "practice",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to observe, discuss, and record phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "written-response",
+                  "audio",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          },
+          {
+            "id": "u01-l03",
+            "title": "Show what I know about phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can observe, discuss, and record phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [],
+            "activities": [
+              {
+                "id": "u01-l03-a01",
+                "title": "Independent or collaborative application",
+                "kind": "create",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to observe, discuss, and record phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "photo",
+                  "written-response",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u02",
+        "title": "Build skill: phonics, high-frequency words, fluency, and story elements",
+        "essentialQuestion": "How can we practice and explain phonics, high-frequency words, fluency, and story elements?",
+        "outcomes": [
+          "I can practice with support and explain phonics, high-frequency words, fluency, and story elements.",
+          "I can use accurate words, pictures, numbers, models, writing, or movement to communicate my thinking."
+        ],
+        "standardIds": [
+          "CCSS.ELA-LITERACY.RL.K.1"
+        ],
+        "lessons": [
+          {
+            "id": "u02-l01",
+            "title": "Explore phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can practice with support and explain phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [
+              "u01-l03"
+            ],
+            "activities": [
+              {
+                "id": "u02-l01-a01",
+                "title": "Notice and investigate",
+                "kind": "learn",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to practice with support and explain phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "written-response",
+                  "audio",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          },
+          {
+            "id": "u02-l02",
+            "title": "Practice phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can practice with support and explain phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [
+              "u01-l03"
+            ],
+            "activities": [
+              {
+                "id": "u02-l02-a01",
+                "title": "Guided skill practice",
+                "kind": "practice",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to practice with support and explain phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "written-response",
+                  "audio",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          },
+          {
+            "id": "u02-l03",
+            "title": "Show what I know about phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can practice with support and explain phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [
+              "u01-l03"
+            ],
+            "activities": [
+              {
+                "id": "u02-l03-a01",
+                "title": "Independent or collaborative application",
+                "kind": "create",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to practice with support and explain phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "photo",
+                  "written-response",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u03",
+        "title": "Apply learning: phonics, high-frequency words, fluency, and story elements",
+        "essentialQuestion": "How can we apply phonics, high-frequency words, fluency, and story elements to a meaningful task?",
+        "outcomes": [
+          "I can create, solve, move, or demonstrate phonics, high-frequency words, fluency, and story elements.",
+          "I can use accurate words, pictures, numbers, models, writing, or movement to communicate my thinking."
+        ],
+        "standardIds": [
+          "CCSS.ELA-LITERACY.RL.K.1"
+        ],
+        "lessons": [
+          {
+            "id": "u03-l01",
+            "title": "Explore phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can create, solve, move, or demonstrate phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [
+              "u02-l03"
+            ],
+            "activities": [
+              {
+                "id": "u03-l01-a01",
+                "title": "Notice and investigate",
+                "kind": "learn",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to create, solve, move, or demonstrate phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "written-response",
+                  "audio",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          },
+          {
+            "id": "u03-l02",
+            "title": "Practice phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can create, solve, move, or demonstrate phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [
+              "u02-l03"
+            ],
+            "activities": [
+              {
+                "id": "u03-l02-a01",
+                "title": "Guided skill practice",
+                "kind": "practice",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to create, solve, move, or demonstrate phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "written-response",
+                  "audio",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          },
+          {
+            "id": "u03-l03",
+            "title": "Show what I know about phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can create, solve, move, or demonstrate phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [
+              "u02-l03"
+            ],
+            "activities": [
+              {
+                "id": "u03-l03-a01",
+                "title": "Independent or collaborative application",
+                "kind": "create",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to create, solve, move, or demonstrate phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "photo",
+                  "written-response",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u04",
+        "title": "Share growth: phonics, high-frequency words, fluency, and story elements",
+        "essentialQuestion": "How can we share evidence of growth in phonics, high-frequency words, fluency, and story elements?",
+        "outcomes": [
+          "I can present, reflect, and set a next step phonics, high-frequency words, fluency, and story elements.",
+          "I can use accurate words, pictures, numbers, models, writing, or movement to communicate my thinking."
+        ],
+        "standardIds": [
+          "CCSS.ELA-LITERACY.RL.K.1"
+        ],
+        "lessons": [
+          {
+            "id": "u04-l01",
+            "title": "Explore phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can present, reflect, and set a next step phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [
+              "u03-l03"
+            ],
+            "activities": [
+              {
+                "id": "u04-l01-a01",
+                "title": "Notice and investigate",
+                "kind": "learn",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to present, reflect, and set a next step phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "written-response",
+                  "audio",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          },
+          {
+            "id": "u04-l02",
+            "title": "Practice phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can present, reflect, and set a next step phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [
+              "u03-l03"
+            ],
+            "activities": [
+              {
+                "id": "u04-l02-a01",
+                "title": "Guided skill practice",
+                "kind": "practice",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to present, reflect, and set a next step phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "written-response",
+                  "audio",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          },
+          {
+            "id": "u04-l03",
+            "title": "Show what I know about phonics, high-frequency words, fluency, and story elements",
+            "objective": "I can present, reflect, and set a next step phonics, high-frequency words, fluency, and story elements by completing a first-grade task and explaining one observation, choice, or strategy.",
+            "estimatedMinutes": 30,
+            "prerequisites": [
+              "u03-l03"
+            ],
+            "activities": [
+              {
+                "id": "u04-l03-a01",
+                "title": "Independent or collaborative application",
+                "kind": "create",
+                "learnerAction": "The learner uses age-appropriate materials and first-grade vocabulary to present, reflect, and set a next step phonics, high-frequency words, fluency, and story elements. Adult supervision is provided whenever the subject involves tools, heat, animals, water, traffic, or online media.",
+                "evidenceOptions": [
+                  "photo",
+                  "written-response",
+                  "observation"
+                ],
+                "estimatedMinutes": 22
+              }
+            ],
+            "successCriteria": [
+              "The learner completes a first-grade task connected to phonics, high-frequency words, fluency, and story elements.",
+              "The learner explains an observation, choice, or strategy with appropriate support.",
+              "The learner follows safety, care, and collaboration expectations."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

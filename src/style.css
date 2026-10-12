@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  color: #18312d;
+  background: #f4f5ee;
+  line-height: 1.65;
+}
+.app {
+  --surface: #fff;
+  --ink: #18312d;
+  --accent: #185443;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  color: var(--ink);
+}
+header {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 1.5rem;
+}
+h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.15;
+}
+h2,
+h3,
+h4 {
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+.eyebrow {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+nav,
+.toolbar,
+.reading-controls {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+nav {
+  margin-top: 1.5rem;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+select,
+input[type='search'] {
+  min-height: 44px;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #596d66;
+  border-radius: 0.3rem;
+}
+button {
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+button[aria-current='page'] {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+}
+a {
+  color: #164e91;
+  text-underline-offset: 0.2em;
+  overflow-wrap: anywhere;
+}
+a:hover {
+  text-decoration-thickness: 3px;
+}
+label {
+  display: block;
+  margin: 0.7rem 0;
+}
+label > select,
+label > input[type='search'],
+label > input[type='file'] {
+  display: block;
+  width: 100%;
+  max-width: 36rem;
+}
+input[type='checkbox'] {
+  width: 1.2rem;
+  height: 1.2rem;
+  vertical-align: middle;
+  margin-right: 0.6rem;
+}
+input[type='file'] {
+  max-width: 22rem;
+}
+form {
+  background: var(--surface);
+  padding: 1.5rem;
+  border-radius: 0.4rem;
+}
+main {
+  padding: 1.5rem 0;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+article,
+.detail,
+section[aria-label='Confirm deletion'],
+section[aria-label='Confirm restore'] {
+  background: var(--surface);
+  padding: 1.5rem;
+  margin: 0.8rem 0;
+  border: 1px solid #8b9c91;
+  border-radius: 0.4rem;
+}
+details {
+  margin: 1rem 0;
+}
+summary {
+  cursor: pointer;
+  padding: 0.5rem;
+  min-height: 44px;
+}
+code {
+  overflow-wrap: anywhere;
+  font-size: 0.85em;
+}
+.error {
+  color: #8f2020;
+  background: #fff1f1;
+  border: 2px solid #8f2020;
+  padding: 1rem;
+}
+[role='status']:not(:empty) {
+  padding: 1rem;
+  background: #e1eee2;
+}
+.skip-link {
+  position: absolute;
+  top: -100px;
+  background: white;
+  padding: 1rem;
+  z-index: 2;
+}
+.skip-link:focus {
+  top: 0;
+}
+:focus-visible {
+  outline: 3px solid #7f3900;
+  outline-offset: 4px;
+}
+footer {
+  border-top: 1px solid #596d66;
+  font-size: 0.9em;
+}
+.reading-large {
+  font-size: 1.2rem;
+}
+.reading-extra {
+  font-size: 1.4rem;
+}
+.high-contrast {
+  --surface: #fff;
+  --ink: #000;
+  --accent: #000;
+  background: #fff;
+}
+.high-contrast a {
+  color: #003d80;
+}
+.high-contrast button {
+  border: 2px solid #000;
+}
+@media (max-width: 600px) {
+  .app {
+    padding: 1rem;
+  }
+  article,
+  .detail,
+  form {
+    padding: 1rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
+@media (forced-colors: active) {
+  button {
+    border: 2px solid ButtonText;
+  }
+}
+@media print {
+  nav,
+  .reading-controls,
+  .toolbar,
+  button,
+  form {
+    display: none;
+  }
+  .app {
+    max-width: none;
+    padding: 0;
+  }
+  .cards {
+    display: block;
+  }
+  article {
+    break-inside: avoid;
+  }
+}

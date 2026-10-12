@@ -31,4 +31,3 @@ Native controls and ARIA appear in teacher navigation; learner subject cards are
 
 ## Scope and limitations
 This is a targeted source audit, not a complete line-by-line review or native build verification. The new app incorporates curriculum structure and one reading module only. The full LearnOS classrooms, calendar, account system, K–12 catalog and studios remain upstream and are planned migration candidates. Existing functionality incorporated here is tested separately; no claim that the entire LearnOS app is included.
-
