@@ -1,6 +1,8 @@
 # Arynwood Open Knowledge
-An independent, MIT-licensed Arynwood Technology project for local-first educational research and inclusive learning.
-Built from a documented, pinned LearnOS foundation without modifying or forking SkyeVault/LearnOS.
+
+[![Validate](https://github.com/Arynwood-Technology/arynwood-open-knowledge/actions/workflows/ci.yml/badge.svg)](https://github.com/Arynwood-Technology/arynwood-open-knowledge/actions/workflows/ci.yml)
+Local-first educational research and inclusive learning, built on a documented LearnOS foundation.
+An independent MIT-licensed Arynwood Technology project, using a pinned foundation without modifying or forking SkyeVault/LearnOS.
 
 ## Use the initial milestone
 Requires Node >=22.12 and npm.
@@ -20,7 +22,7 @@ npm run preview
 ```
 
 ## Optional ORCID connection
-[ORCID setup](docs/research/ORCID_SETUP.md) explains the server-only environment configuration, callback routes and public researcher profiles. Rotate the secret exposed in chat before configuration. The supplied secret was never stored or used. .env.example includes only the public client ID and a blank secret. Public discovery remains available without the optional server.
+[ORCID setup](docs/research/ORCID_SETUP.md) explains the server-only environment configuration, callback routes and public researcher profiles. Use your own server-side credentials; `.env.example` contains a public client ID and a blank secret. Public discovery remains available without the optional server.
 
 Run the built app and optional OAuth routes from the local Node server through the configured origin. The proposed production HTTPS callback has not been hosted. Production credentials require HTTPS; sandbox loopback development needs a separately registered sandbox client. Tokens stay in server memory; authenticated ORCID iDs do not imply verified qualifications or editor permission.
 
@@ -61,3 +63,9 @@ See [Contributing](CONTRIBUTING.md), [Editorial policy](docs/community/EDITORIAL
 
 ## License and attribution
 MIT; complete original copyright notice retained in LICENSE. NOTICE and upstream-manifest.json document reused/adapted source. The original LearnOS history remains accessible at the pinned upstream revision. Linked publications and third-party resources retain their own rights.
+
+## How this is built
+
+I decide the scope and architecture, review changes, run the available checks and ship releases.
+Claude Code and Codex work with me as pair programmers; some assisted commits carry
+co-author trailers, and others do not. [How we build](https://github.com/Arynwood-Technology/.github/blob/main/HOW-WE-BUILD.md).
