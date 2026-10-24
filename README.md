@@ -1,6 +1,7 @@
 # Arynwood Open Knowledge
 
 [![Validate](https://github.com/Arynwood-Technology/arynwood-open-knowledge/actions/workflows/ci.yml/badge.svg)](https://github.com/Arynwood-Technology/arynwood-open-knowledge/actions/workflows/ci.yml)
+
 Local-first educational research and inclusive learning, built on a documented LearnOS foundation.
 An independent MIT-licensed Arynwood Technology project, using a pinned foundation without modifying or forking SkyeVault/LearnOS.
 
